@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #000;
+    color: #fff;
+}
+#container{
+    display: flex;
+    justify-content: center;
+}
+#dayYear{
+    margin-left: 8%;
+    font-size: 1.5rem;
+}
+#hoursMin{
+    font-size:6rem;
+}

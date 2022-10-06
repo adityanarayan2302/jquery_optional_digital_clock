@@ -17,3 +17,17 @@ body{
 #hoursMin{
     font-size:6rem;
 }
+#stopWatchTime{
+    font-size:6rem;
+}
+button{
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#changeDateTimeDiv{
+    margin-top: 10%;
+}
+input{
+    margin-top: 10px;
+}

@@ -1,21 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <link rel="stylesheet" href="./CSS/style.css">
-  <title>Document</title>
-</head>
-<body>
-  <div id="container">
-    <div>
-      <p id="dayYear"></p>
-    <p id="hoursMin"></p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>Digital Clock</title>
+  </head>
+  <body>
+    <div id="container">
+      <div>
+        <p id="dayYear"></p>
+        <p id="hoursMin"></p>
+        <div id="changeDateTimeDiv">
+          <p>
+            Change hours and Minutes to: <input type="time" id="changeTime" />
+          </p>
+          <p>Change Date to: <input type="date" id="changeDate" /></p>
+          <button id="updateDateTime">Update Date and Time</button>
+        </div>
+        <div id="stopWatch">
+          <h1>Stop Watch</h1>
+          <p id="stopWatchTime">00 : 00 : 00</p>
+          <button id="startTime">Start Timer</button>
+          <button id="stopTimer">Stop Timer</button>
+          <button id="resetTime">Reset Timer</button>
+        </div>
+      </div>
     </div>
-    
-   </div>
-</body>
-<script src="./JS/script.js"></script>
+  </body>
+  <script src="./JS/script.js"></script>
 </html>
